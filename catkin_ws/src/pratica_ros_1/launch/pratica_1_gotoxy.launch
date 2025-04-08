@@ -1,0 +1,15 @@
+<launch>
+    <!-- Inicia o turtlesim node -->
+    <node name="turtlesim_node" pkg="turtlesim" type="turtlesim_node" output="screen">
+        <!-- Você pode definir parâmetros aqui, por exemplo, a posição inicial da tartaruga -->
+        <param name="background_r" value="0"/>
+        <param name="background_g" value="0"/>
+        <param name="background_b" value="0"/>
+    </node>
+
+    <!-- Inicia o nó go_to_xy.py -->
+    <node name="go_to_xy" pkg="pratica_ros_1" type="go_to_xy.py" output="screen">
+        <!-- Defina parâmetros necessários, se houver -->
+    </node>
+
+</launch>
