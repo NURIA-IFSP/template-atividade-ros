@@ -22,7 +22,7 @@ EOF
 fi
 
 # Inicia o servidor VNC com TurboVNC sem senha
-vncserver $DISPLAY -geometry 1280x800 -depth 24 -securitytypes None
+vncserver $DISPLAY -geometry 1920x1200 -depth 24 -securitytypes None
 
 # Aguarda o ambiente gráfico inicializar
 sleep 3
